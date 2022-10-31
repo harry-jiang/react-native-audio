@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         google()
     }
 
@@ -36,9 +36,9 @@ android {
 //def supportVersion = rootProject.hasProperty('supportLibVersion') ? rootProject.supportLibVersion : DEFAULT_SUPPORT_LIB_VERSION
 
 repositories {
+    mavenCentral()
     mavenLocal()
     google()
-    jcenter()
 }
 
 
